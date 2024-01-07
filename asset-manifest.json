@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/castleknock_somerton_tracker/static/css/main.f855e6bc.css",
+    "main.js": "/castleknock_somerton_tracker/static/js/main.fff19b01.js",
+    "static/js/787.16ad468b.chunk.js": "/castleknock_somerton_tracker/static/js/787.16ad468b.chunk.js",
+    "index.html": "/castleknock_somerton_tracker/index.html",
+    "main.f855e6bc.css.map": "/castleknock_somerton_tracker/static/css/main.f855e6bc.css.map",
+    "main.fff19b01.js.map": "/castleknock_somerton_tracker/static/js/main.fff19b01.js.map",
+    "787.16ad468b.chunk.js.map": "/castleknock_somerton_tracker/static/js/787.16ad468b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.fff19b01.js"
+  ]
+}
