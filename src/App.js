@@ -5,7 +5,7 @@ import GoogleSheetsAPI from './GoogleSheetsAPI';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <GoogleSheetsAPI/>
     </div>
   );
