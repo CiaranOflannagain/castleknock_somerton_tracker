@@ -1,34 +1,68 @@
-.App {
-  text-align: center;
+/* GoogleSheetsAPI.css */
+
+/* Styling for the top-left corner image */
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-/* Timetable container */
-.timetable-container {
-  margin: 20px;
+/* Make the image smaller */
+.image-container img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
 }
 
-/* Timetable table */
-.timetable {
-  width: 100%;
+/* Styling for the GoogleSheetsAPI container */
+.table-container {
+  display: flex;
+  justify-content: space-between; /* Spread tables evenly */
+  margin-bottom: 20px; /* Add space between table pairs */
+}
+
+/* Styling for individual tables */
+table {
   border-collapse: collapse;
+  width: 32%; /* Adjust the width as needed */
+  border: 1px solid #dddddd;
+  margin-right: 10px; /* Add space between tables */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+/* Add margin to create gaps between tables */
+table:not(:last-child) {
+  margin-right: 20px; /* Adjust the gap width as needed */
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px;
+  background-color: #f0f8ff;
+  color: #333;
+  font-size: 12px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 4px;
+  font-size: 12px;
+}
+
+/* Center the header and tables horizontally */
+h2, table {
+  margin: 0 auto;
+}
+
+/* Center the column headers */
+h2 {
   text-align: center;
 }
 
-/* Table headers */
-.timetable th {
-  background-color: #007bff;
-  color: #fff;
-  font-weight: bold;
-  padding: 10px;
-}
-
-/* Table cells */
-.timetable td {
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-/* Apply specific styling to the first column (time slots) */
-.timetable td:first-child {
-  font-weight: bold;
+/* Center the header text */
+h1 {
+  text-align: center;
+  margin-top: 20px;
 }
